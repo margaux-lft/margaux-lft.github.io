@@ -1,0 +1,260 @@
+
+@media (max-width : 768px) {
+    .menu{
+        font-size: 11px;
+    }
+
+    .introduction {
+        padding-top: 700px;
+        font-size: 100px;
+        text-align: center;
+        padding-right: 40px;
+    }
+
+    .bouton-2 a {
+        margin-left: 360px;
+    }
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+}
+
+header{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/Soap.jpeg);
+}
+
+/*BARRE SUPERIEUR*/
+.barre{
+    background-color: #fff;
+    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+   
+}
+
+/*MENU NAVIGATION*/
+.menu{
+    grid-column: 3;
+    grid-row: 1 ;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 35px;
+    padding-right: 30px;
+    font-weight: 400;
+ 
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a { 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding:5px 10px
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: black;
+
+}
+
+
+
+
+
+/*LOGO*/
+.logo{ 
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.logo img{
+    width: 140px;
+    height: auto;
+}
+
+.logo-footer{
+    width: 85px;
+    height: auto;
+    padding-bottom: 10px;
+}
+/*TEXTE ACCUEIL*/
+.introduction{
+    padding-left: 40px;
+    padding-top: 300px;
+    font-size: 60px;
+    font-weight: 700;
+    text-align:left;
+    font-family:'Amatic SC', cursive;
+}
+
+/*BOUTON*/
+.bouton a {
+    display:block;
+    width:210px;
+    line-height:45px;
+    text-align:center;
+    background-color: rgb(148, 98, 102, 1);
+    color:white;
+    text-decoration:none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 288px;
+    font-weight: 300;
+}
+
+.bouton a:hover{
+    color: rgb(148, 98, 102, 1);
+    background-color:white;
+}
+
+.bouton-2 a {
+    display:block;
+    width:260px;
+    line-height:45px;
+    text-align:center;
+    background-color: rgb(152, 91, 60, 1);;
+    color:white;
+    text-decoration:none;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 500px;
+    font-weight: 300;
+    margin-left: 500px;
+    font-size: 14px;
+}
+
+.bouton-2 a:hover{
+    color: white;
+    width: 265px;
+    line-height: 47px;
+    font-size: 15px;
+}
+
+/*A PROPOS*/
+.a-propos{
+    padding-top: 1rem;
+    margin-top: 6rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 3rem;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 5px;
+  
+}
+
+.titre-propos {
+    font-family:'Amatic SC', cursive;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: left;
+    grid-column: 1/3;
+    grid-row: 1 ;
+    position: relative;
+    top: 18px;
+}
+
+.sous-titre-propos {
+    font-family:'Amatic SC', cursive;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 1rem;
+    text-align: right;
+    grid-column: 4/6;
+    grid-row: 4 ;
+}
+.texte-propos {
+    padding-top: 10px;
+    font-weight: 400;
+    grid-column: 2/8;
+    grid-row: 3/4;
+    text-align: justify;
+    margin-bottom: 4rem;
+}
+
+.sous-texte-propos {
+    padding-top: 10px;
+    font-weight: 400;
+    grid-column: 1/5;
+    grid-row: 6 ;
+    text-align: justify;
+}
+.fleche_1 {
+    width: 140px;
+    height: auto;
+    grid-column: 2;
+    grid-row: 2;
+}
+.fleche_2 {
+    width: 140px;
+    height: auto;
+    grid-column: 5;
+    grid-row: 6;
+    position: relative;
+    top: -47px;
+}
+
+/*GALLERIE PHOTO*/
+.visuel {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 20px;
+margin-left: 1rem;
+margin-right: 1rem;
+margin-top: 2rem;
+}
+
+.colonne1 {
+    grid-column: 1;
+    grid-row: 1; 
+    background-image: url(../img/a\ propos.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.colonne2 {
+    grid-column: 2;
+    grid-row: 1; 
+    background-image: url(../img/3.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+ 
+}
+
+.colonne3 {
+    grid-column: 3;
+    grid-row: 1;
+    background-image: url(../img/4.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.colonne4 {
+    grid-column: 4;
+    grid-row: 1;
+    background-image: url(../img/5.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
